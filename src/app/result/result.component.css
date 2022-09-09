@@ -1,0 +1,49 @@
+.result-container {
+  background-color: #b4ded2;
+  width: 270px;
+  height: 290px;
+  border-radius: 20px;
+  margin-left: 5px;
+  color: white;
+
+}
+
+.result-container-tip, .result-container-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+
+
+}
+.tip-amount, .total-amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  color: var(--grayish-cyan);
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 16px;;
+}
+
+.tip-count, .total-count {
+  font-weight: bolder;
+  color: var(--very-dark-cyan);
+}
+
+button {
+  background-color: var(--very-dark-cyan);
+  color: #b4ded2;
+  border: 0px;
+  width: 200px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-top: 100px;
+}
